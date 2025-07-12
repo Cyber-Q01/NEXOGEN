@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import NexogenLogo from '../layout/NexongenLogo.png';
+import NexogenLogo from '../layout/NexogenLogo.png';
 import Image from "next/image"
 
 const HeroSection = () => {
