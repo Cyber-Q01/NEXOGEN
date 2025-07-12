@@ -12,7 +12,11 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
       
     <div className=" flex justify-center items-center gap-[2px]">
-  <Image src={NexogenLogo} alt="NEXOGEN" width={40} height={40} />
+   <Image
+    src={NexogenLogo}
+    alt="NEXOGEN"
+    className="h-[1em] w-auto"
+  />
   <h1 className="text-4xl font-extrabold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl font-headline bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400">
     NEXOGEN LABS
   </h1>
