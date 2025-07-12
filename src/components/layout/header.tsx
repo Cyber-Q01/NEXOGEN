@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import NexogenLogo from "./NexogenLogo.png";
+import Logo from "./Logo.png";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -27,6 +28,7 @@ const Header = () => {
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="#home" className="flex items-center space-x-2">
           <Image src={NexogenLogo} alt="NEXOGEN" width={40} height={40} />
+             <Image src={Logo} alt="NEXOGEN" width={40} height={40} />
 {/*           <Logo className="h-8 w-8 text-primary" /> */}
           <span className="hidden font-bold sm:inline-block text-lg">
             NEXOGEN LABS
