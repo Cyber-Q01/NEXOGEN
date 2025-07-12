@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
+import tirzepitideImg from "./Tirzepitide.png";
 
 const products = [
   {
@@ -13,7 +14,7 @@ const products = [
       "Promotes satiety signals",
     ],
     purity: "Research-grade purity",
-    image: "./Tirzepitide.png",
+   image: tirzepitideImg,
     aiHint: "serum bottle"
   },
   {
