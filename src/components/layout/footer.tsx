@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="flex w-[600px] justify-center border mx-auto items-center space-x-6  relative border-4 border-gray-400 p-8 pt-6">
 
 {/*             <div class="relative border-4 border-gray-400 p-8 pt-6"> */}
-   <span className="absolute -top-5 left-1/2 -translate-x-1/2 bg-white px-2 text-lg font-semibold text-gray-700">
+   <span className="absolute -top-5 left-1/2 -translate-x-1/2 bg-background px-2 text-lg font-semibold text-gray-700">
   Contact Us
 </span>
             <a
@@ -26,7 +26,7 @@ const Footer = () => {
               aria-label="Email"
               className="text-muted-foreground transition-colors hover:text-primary"
             >
-              <Mail className="h-6 w-6" />
+              EMAIL
             </a>
             <a
               href="https://discord.gg/matgfQTbVn"
@@ -35,7 +35,7 @@ const Footer = () => {
               aria-label="Discord"
               className="text-muted-foreground transition-colors hover:text-primary"
             >
-              <DiscordIcon className="h-6 w-6" />
+             Discord
             </a>
           </div>
         </div>
