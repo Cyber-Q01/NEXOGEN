@@ -46,7 +46,20 @@ const testimonials = [
   },
 ];
 
+const AUTO_PLAY_INTERVAL = 3000; // ms
+
 const TestimonialsSection = () => {
+  const [emblaApi, setEmblaApi] = React.useState(null);
+
+  // Auto-advance logic
+  React.useEffect(() => {
+    if (!emblaApi) return;
+    const interval = setInterval(() => {
+      if (emblaApi) emblaApi.scrollNext();
+    }, AUTO_PLAY_INTERVAL);
+    return () => clearInterval(interval);
+  }, [emblaApi]);
+
   return (
     <section id="testimonials" className="py-20 sm:py-32 bg-secondary/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -60,6 +73,7 @@ const TestimonialsSection = () => {
         </div>
 
         <Carousel
+          setApi={setEmblaApi}
           opts={{
             align: "start",
             loop: true,
