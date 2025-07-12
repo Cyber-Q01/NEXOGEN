@@ -15,7 +15,7 @@ const Footer = () => {
 {/*             <Logo className="h-8 w-8 text-primary" /> */}
             <span className="text-lg font-bold">NEXOGEN LABS</span>
           </div>
-          <div className="flex w-[100px] justify-center border mx-auto items-center space-x-6  relative border-4 border-gray-400 p-8 pt-6">
+          <div className="flex w-[600px] justify-center border mx-auto items-center space-x-6  relative border-4 border-gray-400 p-8 pt-6">
 
 {/*             <div class="relative border-4 border-gray-400 p-8 pt-6"> */}
     <span class="absolute -top-3 left-4  px-1 text-lg font-semibold text-gray-700">
