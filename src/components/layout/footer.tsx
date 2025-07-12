@@ -15,7 +15,7 @@ const Footer = () => {
 {/*             <Logo className="h-8 w-8 text-primary" /> */}
             <span className="text-lg font-bold">NEXOGEN LABS</span>
           </div>
-          <div className="flex justify-center mx-auto items-center space-x-6">
+          <div className="flex justify-center border mx-auto items-center space-x-6">
             <a
               href="mailto:Nexogenlabz@proton.me"
               aria-label="Email"
