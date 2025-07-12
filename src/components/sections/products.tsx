@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const products = [
   {
-    name: "TIRZEPATIDE (15mg)",
+    name: "TIRZEPATIDE ",
     description: "Dual GIP and GLP-1 receptor agonist",
     benefits: [
       "Supports healthy glucose metabolism",
@@ -17,7 +17,7 @@ const products = [
     aiHint: "serum bottle"
   },
   {
-    name: "RETATUTIDE (15mg)",
+    name: "RETATUTIDE",
     description: "Triple receptor peptide (GIP, GLP-1, glucagon)",
     benefits: [
       "Triple receptor action",
@@ -29,7 +29,7 @@ const products = [
     aiHint: "lab equipment"
   },
   {
-    name: "TESTOSTERONE (80mg)",
+    name: "TESTOSTERONE",
     description: "Hormone support for strength & recovery",
     benefits: [
       "Supports muscle growth",
