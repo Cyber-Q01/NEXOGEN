@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const products = [
   {
-    name: "TIRZEPATIDE ",
+    name: "TIRZEPITIDE ",
     description: "Dual GIP and GLP-1 receptor agonist",
     benefits: [
       "Supports healthy glucose metabolism",
@@ -13,7 +13,7 @@ const products = [
       "Promotes satiety signals",
     ],
     purity: "Research-grade purity",
-    image: "https://placehold.co/600x400.png",
+    image: "./Tirzepitide.png",
     aiHint: "serum bottle"
   },
   {
