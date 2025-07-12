@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="border-t border-white/10 mt-20">
       <div className="container mx-auto px-6 py-8">
-        <div className="flex flex-col items-center justify-between space-y-6 sm:flex-row sm:space-y-0">
+{/*         <div className="flex flex-col items-center justify-between space-y-6 sm:flex-row sm:space-y-0"> */}
           <div className="flex items-center space-x-2">
            <Image src={NexogenLogo} alt="NEXOGEN" width={40} height={40} />
 {/*             <Logo className="h-8 w-8 text-primary" /> */}
@@ -40,7 +40,7 @@ const Footer = () => {
             <Image src={DiscordLogo} alt="Discord" width={40} height={40} />
             </a>
           </div>
-        </div>
+{/*         </div> */}
         <div className="mt-8 text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} NEXOGEN LABS. All rights reserved.
         </div>
