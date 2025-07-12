@@ -23,7 +23,7 @@ const Footer = () => {
    <span className="absolute -top-5 left-1/2 -translate-x-1/2 bg-background px-2 text-lg font-semibold text-gray-700">
   Contact Us
 </span>
-            <div style={{ width: '120px', height: '240px', position: 'relative' }}>
+            <div style={{ width: '40px', height: '40px', position: 'relative' }}>
             <a
               href="mailto:Nexogenlabz@proton.me"
               aria-label="Email"
