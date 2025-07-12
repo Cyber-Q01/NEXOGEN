@@ -17,7 +17,7 @@ const Footer = () => {
 {/*             <Logo className="h-8 w-8 text-primary" /> */}
             <span className="text-lg font-bold">NEXOGEN LABS</span>
           </div>
-          <div className="flex w-[400px] justify-center border mx-auto items-center space-x-6  relative border-4 border-gray-400 p-8 pt-6">
+          <div className="flex w-[200px] justify-center border mx-auto items-center space-x-6  relative border-4 border-gray-400 p-8 pt-6">
 
 {/*             <div class="relative border-4 border-gray-400 p-8 pt-6"> */}
    <span className="absolute -top-5 left-1/2 -translate-x-1/2 bg-background px-2 text-lg font-semibold text-gray-700">
@@ -28,7 +28,7 @@ const Footer = () => {
               aria-label="Email"
               className="text-muted-foreground transition-colors hover:text-primary"
             >
-            <Image src={EmailLogo} alt="Email" size = {120} width={40} height={120} />
+            <Image src={EmailLogo} alt="Email" size = {120} width={40} height={240} />
             </a>
             <a
               href="https://discord.gg/matgfQTbVn"
