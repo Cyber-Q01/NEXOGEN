@@ -23,13 +23,15 @@ const Footer = () => {
    <span className="absolute -top-5 left-1/2 -translate-x-1/2 bg-background px-2 text-lg font-semibold text-gray-700">
   Contact Us
 </span>
+            <div style={{ width: '120px', height: '240px', position: 'relative' }}>
             <a
               href="mailto:Nexogenlabz@proton.me"
               aria-label="Email"
               className="text-muted-foreground transition-colors hover:text-primary"
             >
-            <Image src={EmailLogo} alt="Email" size = {120} width={40} height={240} />
+             <Image src={EmailLogo} alt="Email" fill style={{ objectFit: 'contain' }} />
             </a>
+              </div>
             <a
               href="https://discord.gg/matgfQTbVn"
               target="_blank"
