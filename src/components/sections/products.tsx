@@ -3,6 +3,8 @@ import { Badge } from "@/components/ui/badge";
 import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 import tirzepitideImg from "./Tirzepitide.png";
+import Testosterone from "./Product2.png";
+import Retatude from "./Product3.png";
 
 const products = [
   {
@@ -26,7 +28,7 @@ const products = [
       "May enhance energy utilization",
     ],
     purity: "Laboratory tested",
-    image: "https://placehold.co/600x400.png",
+    image: Retatude,
     aiHint: "lab equipment"
   },
   {
@@ -38,7 +40,7 @@ const products = [
       "Improves strength and endurance",
     ],
     purity: "Pharmaceutical grade",
-    image: "https://placehold.co/600x400.png",
+    image: Testosterone,
     aiHint: "science fitness"
   },
 ];
