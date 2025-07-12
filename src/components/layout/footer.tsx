@@ -2,6 +2,8 @@ import { Mail } from "lucide-react";
 import DiscordIcon from "../icons/discord-icon";
 import Image from "next/image"
 import NexogenLogo from "./NexogenLogo.png";
+import EmailLogo from "./EmailLogo.jpg";
+import DiscordLogo from "./DiscordLogo.jpg";
 
 import Link from "next/link";
 
@@ -26,7 +28,7 @@ const Footer = () => {
               aria-label="Email"
               className="text-muted-foreground transition-colors hover:text-primary"
             >
-              EMAIL
+            <Image src={EmailLogo} alt="Email" width={40} height={40} />
             </a>
             <a
               href="https://discord.gg/matgfQTbVn"
@@ -35,7 +37,7 @@ const Footer = () => {
               aria-label="Discord"
               className="text-muted-foreground transition-colors hover:text-primary"
             >
-             Discord
+            <Image src={DiscordLogo} alt="Discord" width={40} height={40} />
             </a>
           </div>
         </div>
