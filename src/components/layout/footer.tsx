@@ -28,7 +28,7 @@ const Footer = () => {
               aria-label="Email"
               className="text-muted-foreground transition-colors hover:text-primary"
             >
-            <Image src={EmailLogo} alt="Email" size = {50} width={40} height={120} />
+            <Image src={EmailLogo} alt="Email" size = {120} width={40} height={120} />
             </a>
             <a
               href="https://discord.gg/matgfQTbVn"
