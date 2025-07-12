@@ -29,7 +29,7 @@ const Footer = () => {
               aria-label="Email"
               className="text-muted-foreground transition-colors hover:text-primary"
             >
-             <Image src={EmailLogo} alt="Email" fill style={{ objectFit: 'contain' }} />
+             <Image src={EmailLogo} alt="Email" />
             </a>
               </div>
             <a
