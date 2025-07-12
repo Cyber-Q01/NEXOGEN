@@ -2,8 +2,8 @@ import { Mail } from "lucide-react";
 import DiscordIcon from "../icons/discord-icon";
 import Image from "next/image"
 import NexogenLogo from "./NexogenLogo.png";
-import EmailLogo from "./EmailLogo.jpg";
-import DiscordLogo from "./DiscordLogo.jpg";
+import EmailLogo from "./icons8-email-100.jpg";
+import DiscordLogo from "./icons8-discord-100.jpg";
 
 import Link from "next/link";
 
