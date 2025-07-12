@@ -4,7 +4,7 @@ import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 import tirzepitideImg from "./Tirzepitide.png";
 import Testosterone from "./Product2.png";
-import Retatude from "./Product3.png";
+import Retatude from "./Product 3.png";
 
 const products = [
   {
