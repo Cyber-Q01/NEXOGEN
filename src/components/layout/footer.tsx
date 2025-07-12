@@ -18,10 +18,9 @@ const Footer = () => {
           <div className="flex w-[600px] justify-center border mx-auto items-center space-x-6  relative border-4 border-gray-400 p-8 pt-6">
 
 {/*             <div class="relative border-4 border-gray-400 p-8 pt-6"> */}
-    <span class="absolute -top-3 left-4  px-1 text-lg font-semibold text-gray-700">
-   Contact Us 
-    </span>
-
+   <span className="absolute -top-5 left-1/2 -translate-x-1/2 bg-white px-2 text-lg font-semibold text-gray-700">
+  Contact Us
+</span>
             <a
               href="mailto:Nexogenlabz@proton.me"
               aria-label="Email"
